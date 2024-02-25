@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+  cursor: pointer;
+}
+
+/* Navbar */
+.top_nav ul {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.top_nav ul li {
+  border-bottom: 1.5px solid transparent;
+}
+
+.top_nav ul li:hover {
+  border-bottom: 1.5px solid #000;
+}
+
+.bottom_nav ul {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  height: 30px;
+}
+
+
+.bottom_nav ul li {
+  padding: 10px 0;
+  border-bottom: 1px solid transparent;
+}
+
+.bottom_nav ul li:hover {
+  border-bottom: 1px solid #fff;
+}
+
+.bottom_nav .logo {
+  padding: 10px;
+  font-weight: bold;
+  border: 3px solid #fff;
+  border-radius: 50%;
+}
+
+.bottom_nav .dropdown {
+  position: absolute;
+  top: 130px;
+  left: 0;
+  width: 100%;
+  padding: 0 50px;
+  color: #000;
+  font-size: 14px;
+}
+
+.bottom_nav .dropdown div {
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 30px;
+  padding: 20px;
+}
+
+.bottom_nav .dropdown div ul {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  gap: 10px;
+  width: 200px;
+}
+
+.bottom_nav .dropdown div ul li {
+  width: 100%;
+  text-align: start;
+  padding: 0 0 5px 0;
+  display: block;
+  overflow: hidden;
+}
+
+.bottom_nav .dropdown div ul li b {
+  display: flex;
+  align-items: center;
+}
+
+.bottom_nav .dropdown div ul li:hover {
+  /* border-bottom: 1px solid #5514b4; */
+  color: #5514b4;
+}
+
+/* Main Container */
+.container {
+  background: url('https://img01.products.bt.co.uk/content/dam/bt/storefront/bt-home/extcust/images/mainherobanner/2023/december/Homepage_ExtCust_MainHero_Desktop_v2_1920x800.webp'), linear-gradient(#5514b4 20%, #fff);
+  color: #fff;
+  padding: 100px 50px;
+  background-size: 130%;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+.container img {
+  width: 100%;
+}
+
+.container button {
+  background-color: #fff;
+  border: 1px solid #5514b4;
+  color: #5514b4;
+  padding: 15px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+}
